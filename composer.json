@@ -1,22 +1,24 @@
 {
-    "name": "drewm/mailchimp-api",
-    "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+    "name": "calderawp/mailchimp-api",
+    "description": "Super-simple, minimum abstraction for MailChimp API v3 using WordPress HTTP API",
     "license": "MIT",
-    "require": {
-        "php": ">=5.3",
-        "ext-curl": "*"
-    },
+    "require": {},
     "require-dev": {
         "phpunit/phpunit": "4.0.*",
         "vlucas/phpdotenv": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "DrewM\\MailChimp\\": "src"
+            "CalderaWP\\MailChimp\\": "src"
         }
     },
-    "homepage": "https://github.com/drewm/mailchimp-api",
-    "authors": [ 
+    "homepage": "https://github.com/calderawp/mailchimp-api",
+    "authors": [
+        {
+          "name": "Josh Pollock",
+          "homepage": "https://JoshPress.net",
+          "role": " Developer"
+        },
         {
             "name": "Drew McLellan",
             "email": "drew.mclellan@gmail.com",
